@@ -1,9 +1,9 @@
 import axios from "axios";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { URL_API } from "../config/rutas";
+import { URL_API } from "./config/rutas";
 
-export function Nuevo() {
+export function NuevoUsuario() {
     const navigate = useNavigate();
     
     const [nombre, setNombre]=useState("");
